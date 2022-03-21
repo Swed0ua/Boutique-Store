@@ -1,0 +1,95 @@
+:root {
+    --BGColor1: #b5a5c1;
+    --BGColor2: #7bbcd7;
+}
+
+/** Menu **/
+
+.nav .active {
+ color: var(--BGColor1) !important;
+}
+
+.nav a:hover {
+    color: var(--BGColor2) !important;
+}
+
+
+/** Dropdown **/
+.dropdown-menu  li a:hover,
+.dropdown-menu  li a:focus {
+    background-color: var(--BGColor1) !important
+}
+
+/** Button **/
+
+.btn-default {
+    background-color: var(--BGColor2) ;
+    color: white;
+    border: none;
+}
+
+.btn-default:hover {
+    background-color: var(--BGColor1);
+}
+
+/** Product card **/
+
+.product-overlay , .overlay-content {
+    background-color: var(--BGColor1);
+    opacity: 0.9;
+}
+
+.overlay-content 
+.add-to-cart {
+    color: var(--BGColor2) ;
+}
+
+.productinfo > h2 {
+    color: var(--BGColor1);
+}
+
+.title,
+.left-sidebar h2 {
+    color: var(--BGColor1)  !important;
+}
+
+/** Slider **/
+
+#slider-carousel .carousel-indicators > li.active {
+    background-color: var(--BGColor2);
+}
+
+/** FOOTER **/
+
+.address {
+    display: flex; justify-content: center; align-items: center;
+}
+
+.address__text {
+    padding: 10px;
+    
+}
+
+/** FORMS **/
+form button {
+    background: var(--BGColor1) !important;
+}
+
+/** OTHER **/
+
+a#scrollUp,
+.recommended-item-control i,
+.nav-tabs li.active a, .nav-tabs li.active a:hover, .nav-tabs li.active a:focus {
+    background-color: var(--BGColor1) !important;
+    color: rgb(248, 238, 238) !important;
+}
+
+.category-tab ul li a:hover {
+    background-color: var(--BGColor2) !important;
+    color: yellow !important;
+}
+
+.logo-404 img {
+    width: 300px !important ;
+    max-width: 50vw;
+}
